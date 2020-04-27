@@ -25,7 +25,7 @@ CREATE TABLE characters (
   species TEXT,
   author_id INTEGER);
   
-CREATE TABLE books_characters (
+CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
-  books_id INTEGER,
-  characters_id INTEGER);
+  book_id INTEGER,
+  character_id INTEGER);
