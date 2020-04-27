@@ -2,6 +2,7 @@ def select_books_titles_and_years_in_first_series_order_by_year
   "SELECT series.title, books.year FROM series
   INNER JOIN books
   ON books.series_id = series.id 
+  WHERE 
   ORDER BY books.year;"
 end
 
