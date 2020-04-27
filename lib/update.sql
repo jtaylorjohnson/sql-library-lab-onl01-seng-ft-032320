@@ -1,1 +1,2 @@
 UPDATE character
+SET species = 
