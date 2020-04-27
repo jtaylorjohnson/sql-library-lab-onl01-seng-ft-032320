@@ -1,2 +1,2 @@
 UPDATE character
-SET species = 
+SET species = "Martian"
